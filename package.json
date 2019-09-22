@@ -1,7 +1,7 @@
 {
   "name": "battlefy",
   "version": "1.0.0",
-  "description": "",
+  "description": "League of Legends summoner lookup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "leaguejs": "^2.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsamkim/battlefy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samsamkim/battlefy/issues"
+  },
+  "homepage": "https://github.com/samsamkim/battlefy#readme"
 }
